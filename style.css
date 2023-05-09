@@ -1,0 +1,263 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #EDD2A3;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #333;
+}
+
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 30px;
+    height: 5px;
+    margin-bottom: 5px;
+    background-color: #333;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    margin-left: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: #EDD2A3;
+        padding: 20px;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .menu li {
+        margin-bottom: 10px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}
+
+/* Hero Section Styles */
+#hero {
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('https://images.unsplash.com/photo-1519311968957-1d5a7891267e');
+    background-size: cover;
+    background-position: center;
+}
+
+#hero h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #EDD2A3;
+    text-shadow: 2px 2px #333;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 20px;
+    color: #EDD2A3;
+    text-shadow: 1px 1px #333;
+    margin-bottom: 40px;
+    max-width: 600px;
+}
+
+.cta {
+    display: inline-block;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #EDD2A3;
+    background-color: #333;
+    border-radius: 50px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.cta:hover {
+    background-color: #FF6B6B;
+}
+
+/* About Section Styles */
+#about {
+    background-color: #F5F5F5;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px
+}
+
+#about p {
+    font-size: 20px;
+    color: #777;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+#about img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+/* Teachings Styles */
+#teachings {
+    background-color: #F5F5F5;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#teachings h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px
+}
+
+#teachings p {
+    font-size: 20px;
+    color: #777;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+#teachings img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+/* Events Styles */
+#events {
+    background-color: #F5F5F5;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#events h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px
+}
+
+#events p {
+    font-size: 20px;
+    color: #777;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+#events img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+/* Contact Section Styles */
+#contact {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 20px;
+    color: #777;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #EDD2A3;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+footer a {
+  color: #EDD2A3;
+  text-decoration: underline;
+  transition: opacity 0.2s ease-in-out;
+}
+
+footer a:hover {
+  opacity: 0.8;
+}
+
+
