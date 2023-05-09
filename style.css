@@ -94,7 +94,6 @@ nav {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url('https://images.unsplash.com/photo-1519311968957-1d5a7891267e');
     background-size: cover;
     background-position: center;
 }
@@ -102,14 +101,14 @@ nav {
 #hero h1 {
     font-size: 60px;
     font-weight: bold;
-    color: #EDD2A3;
+    color: #776952;
     text-shadow: 2px 2px #333;
     margin-bottom: 20px;
 }
 
 #hero p {
     font-size: 20px;
-    color: #EDD2A3;
+    color: #776952;
     text-shadow: 1px 1px #333;
     margin-bottom: 40px;
     max-width: 600px;
